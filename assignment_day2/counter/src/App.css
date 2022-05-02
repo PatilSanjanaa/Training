@@ -1,0 +1,42 @@
+.container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.screen{
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 030px auto;
+  width: 20%;
+  font-size: 80px;
+  padding: 30px 100px;
+  border-radius: 15px;
+}
+.btn{
+  padding: 20px 40px;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: black;
+  border: 1px solid black;
+  background: white;
+}
+#start{
+  background-color: green;
+}
+#stop{
+  background-color: rgb(185, 20, 20);
+}
+#reset{
+  background-color: rgb(27, 27, 150);
+}
